@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras mídias no HTML5</title>
+</head>
+
+<body>
+    <header>
+        <h1>Outras mídas no HTML5</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Aúdio</h2>
+            <audio controls src="midias/audio.mp3"></audio>
+
+            <h2>Vídeo</h2>
+            <video controls src="midias/video.mp4" type="video/mp4" width="400px">
+                Vídeo não encontrado ou não suportado.
+            </video>
+
+            <h2>Vídeo do Youtube (externo) - iFrame</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-YbiBclEEgo?si=bo2rtYpfmALDY4Ft"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <!-- Incorporando Mapas  -->
+            <h2>Mapas (iframe)</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.6909639367154!2d-47.84882298909108!3d-24.496162296508523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5338bea658bc1%3A0xdea6f93b5aae61a8!2sFatec%20Registro!5e0!3m2!1spt-BR!2sbr!4v1773192734945!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <!-- Incorporando PDFs -->
+            <h2>PDF (iframe)</h2>
+            <iframe src="midias/documento.pdf" frameborder="0" title="Horários DSM-1" width="600px" height="450px">
+            </iframe>
+
+            <!-- Incorporando Vetores -->
+            <h2>Vetores (ilustrações)</h2>
+
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M7.54099 3.948C6.93314 3.33728 6.10764 2.99294 5.24598 2.99069C4.38432 2.98844 3.55703 3.32846 2.94599 3.936C2.33845 4.54703 1.99843 5.37432 2.00068 6.23598C2.00293 7.09765 2.34727 7.92315 2.95799 8.531L7.66499 13.239C7.75876 13.3327 7.88591 13.3854 8.01849 13.3854C8.15108 13.3854 8.27823 13.3327 8.37199 13.239L13.055 8.559C13.6622 7.94801 14.0021 7.12093 13.9998 6.25952C13.9976 5.3981 13.6534 4.57281 13.043 3.965C12.7419 3.6617 12.384 3.42076 11.9896 3.25598C11.5953 3.09119 11.1724 3.0058 10.745 3.00469C10.3176 3.00357 9.89422 3.08676 9.49904 3.24948C9.10386 3.41221 8.74466 3.65127 8.44199 3.953L7.99499 4.401L7.54099 3.948Z"
+                    fill="url(#paint0_linear_1_2)" />
+                <defs>
+                    <linearGradient id="paint0_linear_1_2" x1="-0.625007" y1="0.0199987" x2="5.70199" y2="13.424"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#F97DBD" />
+                        <stop offset="1" stop-color="#D7257D" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+
+
+        </section>
+    </main>
+
+</body>
+
+</html>
